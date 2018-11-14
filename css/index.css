@@ -18,7 +18,9 @@ header{
     }
 }
 
-/* .navbar{
-    background-color: cornflowerblue;
-    padding: 20px;
-} */
+img{
+    border-radius: 50%;
+    max-width: 20%;
+    max-height: 10%;
+}
+
