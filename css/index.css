@@ -1,0 +1,24 @@
+header{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../css/foto.jpg);
+    color: white;
+    min-height: 600px;
+}
+
+@media (max-height: 640px){
+    header{
+        min-height: 400px;
+    }
+}
+
+@media (min-height: 900px){
+    header{
+        min-height: 800px;
+    }
+}
+
+/* .navbar{
+    background-color: cornflowerblue;
+    padding: 20px;
+} */
