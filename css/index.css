@@ -1,26 +1,139 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.titulo-secao{
+    margin-bottom: 30px;
+}
+/* Cabeçalho */
+/* -------------------------------------------- */
 header{
     background-size: cover;
     background-position: center;
-    background-image: url(../css/foto.jpg);
     color: white;
-    min-height: 600px;
+    min-height: 650px;
 }
-
 @media (max-height: 640px){
     header{
-        min-height: 400px;
+        min-height: 550px;
     }
 }
-
 @media (min-height: 900px){
     header{
-        min-height: 800px;
+        min-height: 900px;
     }
 }
-
-img{
+/* Sobre mim */
+/* -------------------------------------------- */
+.aboutme h4{
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.h5-person{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.myfoto{
     border-radius: 50%;
-    max-width: 20%;
-    max-height: 10%;
+}
+.aboutme{
+    background-color: #89D199;
+    padding: 50px;
+    color: white;
+    font-size: 1.1em;
+}
+/* Nav - menu */
+/* -------------------------------------------- */
+.navbar{
+    display:none;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #89D199;
+}
+.nav a, .navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover{
+    color: #89D199;
+}
+.nav a:hover, .navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link.active,
+.menu{
+    color: #89D199;
+    font-weight: 600;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+@media screen and (max-width: 767px){
+    .navbar{
+        display:block;
+    }
+    .nav{
+        display: none;
+    }
+}
+/* Contato */
+/* -------------------------------------------- */
+.contact{
+    background-color: #43474d;
+    color: white;
+    padding: 50px;
+}
+.contact a{
+    color: white;
+}
+/* Habilidades */
+/* -------------------------------------------- */
+.skills{
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+/* Portfolio */
+/* -------------------------------------------- */
+.portfolio{
+    padding: 50px;
+}
+/* Header (retirado do w3school) */
+/* -------------------------------------------- */
+body, html {
+    height: 100%;
+  }
+  
+* {
+box-sizing: border-box;
 }
 
+.bg-image {
+/* The image used */
+background-image: url("../css/foto1.jpg");
+
+/* Add the blur effect */
+filter: blur(1px);
+-webkit-filter: blur(1px);
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+font-family: 'Titillium Web', sans-serif;
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+}
+  
