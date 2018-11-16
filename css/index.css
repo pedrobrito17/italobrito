@@ -100,7 +100,7 @@ box-sizing: border-box;
 
 .bg-image {
 /* The image used */
-background-image: url("../css/foto1.jpg");
+background-image: url("../css/foto.jpg");
 
 /* Add the blur effect */
 filter: blur(1px);
