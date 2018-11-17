@@ -91,30 +91,38 @@ header{
 /* -------------------------------------------- */
 .portfolio{
     padding: 50px;
+    background-color: #f1f1f1;
+}
+/* Tecnologias */
+/* -------------------------------------------- */
+.technologies{
+    padding: 50px;
+}
+.row {
+display: flex;
+}
+.column {
+flex: 33.33%;
+padding: 5px;
 }
 /* Header (retirado do w3school) */
 /* -------------------------------------------- */
 * {
 box-sizing: border-box;
 }
-
 .bg-image {
 /* The image used */
 background-image: url("../css/foto.jpg");
-
 /* Add the blur effect */
 filter: blur(1px);
 -webkit-filter: blur(1px);
-
 /* Full height */
 height: 100%; 
-
 /* Center and scale the image nicely */
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-
 /* Position text in the middle of the page/image */
 .bg-text {
 font-family: 'Titillium Web', sans-serif;
@@ -132,4 +140,10 @@ width: 80%;
 padding: 20px;
 text-align: center;
 }
-  
+
+
+
+
+
+
+

@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="Página de divulgação do programador Italo Brito">
+    <meta name="description" content="Página de divulgação do programador Ítalo Brito">
     <meta name="keywords" content="desenvolvimento, desenvolvedor, Freelancer, web, desenvolvedor web, desenvolvimento web, sites, sistemas, java, mysql, sql, jquery, javascript, profissional, freela, android, aplicativos, aplicações, software, WordPress, Blog, servidor, dominio, hospedagem, analista de sistemas, Brasil, Maranhão, São Luís">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Italo Brito - Desenvolvedor Web Full Stack | Programador Java e JavaScript</title>
+    <title>Ítalo Brito - Desenvolvedor Web Full Stack | Programador Java e JavaScript</title>
     
     <!-- Estilos -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -22,6 +22,7 @@
       <a class="nav-link active" href="#home">Home</a>
       <a class="text-sm-center nav-link" href="#aboutme">Sobre</a>
       <a class="text-sm-center nav-link" href="#skills">Habilidades</a>
+      <a class="text-sm-center nav-link" href="#technologies">Tecnologias</a>
       <a class="text-sm-center nav-link" href="#portfolio">Portfolio</a>
       <a class="text-sm-center nav-link" href="#contact">Contato</a>
     </nav>
@@ -40,6 +41,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#skills">Habilidade</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#technologies">Tecnologias</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Porfolio</a>
@@ -105,11 +109,72 @@
       </div>
     </section>
 
-    <section class="portfolio" id="portfolio">
+    <section class="technologies" id="technologies">
+        <div class="text-center titulo-secao"><h2><b>Tecnologias</b></h2></div>
       <div class="container">
-          <div class="text-center titulo-secao"><h2><b>Portfolio</b></h2></div>
         <div class="row">
+          <div class="column text-center align-middle">
+            <img src="css/img/CSS3.png" alt="css3" style="width:45%">
+          </div>
+          <div class="column text-center align-middle">
+            <img src="css/img/html.png" alt="html5" style="width:60%">
+          </div>
+          <div class="column text-center align-middle">
+            <img src="css/img/js.png" alt="javascript" style="width:60%">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column text-center ">
+            <img class="align-middle" src="css/img/bootstrap.png" alt="bootstrap" style="width:100%">
+          </div>
+          <div class="column text-center align-middle">
+            <img src="css/img/java.jpg" alt="java" style="width:45%">
+          </div>
+          <div class="column text-center align-middle">
+            <img src="css/img/spring.jpeg" alt="spring" style="width:100%">
+          </div>
+        </div>
+        <div class="row">
+          <div class="column text-center align-middle">
+            <img src="css/img/android-studio.jpg" alt="android studio" style="width:80%">
+          </div>
+          <div class="column text-center align-middle">
+            <img src="css/img/wordpress.png" alt="wordpress" style="width:80%">
+          </div>
+          <div class="column text-center align-middle">
+            <img src="css/img/mysql.jpg" alt="mysql" style="width:80%">
+          </div>
+        </div>
+      </div>  
+      </section>
 
+    <section class="portfolio" id="portfolio">
+      <div class="text-center titulo-secao"><h2><b>Portfolio</b></h2></div>
+      <div class="container">
+        <div class="row">
+          <a href="#" parametro="imagem1.jpg" class="abrirModal"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=1&w=100&h=100" /></a>
+          <a href="#" parametro="imagem2.jpg" class="abrirModal"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=2&w=100&h=100" /></a>
+          <a href="#" parametro="imagem3.jpg" class="abrirModal"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=3&w=100&h=100" /></a>
+          <a href="#" parametro="imagem4.jpg" class="abrirModal"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=4&w=100&h=100" /></a>
+          
+          
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Exemplo</h4>
+                </div>
+                <div class="modal-body text-center">
+                  <img src="" />
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -119,23 +184,23 @@
         <h2 class="text-center titulo-secao"><b>Contato</b></h2>
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/whatsapp.png" alt="whatsapp">
+            <img class="mx-auto d-block" src="css/icon/whatsapp.png" alt="whatsapp">
             <h5 class="text-center">(98) 98204-5453</h5>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-            <img class="mx-auto d-block" src="css/gmail.png" alt="gmail">
+            <img class="mx-auto d-block" src="css/icon/gmail.png" alt="gmail">
             <h5 class="text-center">pedrobrito17@gmail.com</h5>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/github-circle.png" alt="github">
+            <img class="mx-auto d-block" src="css/icon/github-circle.png" alt="github">
             <h5 class="text-center"><a href="http://www.github.com/pedrobrito17" target="_blank">/pedrobrito17</a></h5>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/facebook-box.png" alt="facebook">
+            <img class="mx-auto d-block" src="css/icon/facebook-box.png" alt="facebook">
             <h5 class="text-center"><a href="http://www.facebook.com/pedrobrito17" target="_blank">/pedrobrito17</a></h5>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/instagram.png" alt="instagram">
+            <img class="mx-auto d-block" src="css/icon/instagram.png" alt="instagram">
             <h5 class="text-center"><a href="http://www.instagram.com/italobritoo" target="_blank">/italobritoo</a></h5>
           </div>
         </div>
