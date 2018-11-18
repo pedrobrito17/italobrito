@@ -108,7 +108,7 @@ box-sizing: border-box;
 }
 .bg-image {
 /* The image used */
-background-image: url("../css/img/foto.jpg");
+background-image: url("../css/img/foto2.jpg");
 /* Add the blur effect */
 filter: blur(1px);
 -webkit-filter: blur(1px);
