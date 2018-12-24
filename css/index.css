@@ -211,3 +211,12 @@ text-align: center;
         width: 100%;
     }
 }
+
+a{
+    color: #212529;
+}
+
+a:hover{
+    color: #212222;
+    
+}
