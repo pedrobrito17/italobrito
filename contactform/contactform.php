@@ -73,6 +73,7 @@
 
     if( $sendemail ) {
       echo 'OK';
+      alert('enviado');
     } else {
       echo 'Could not send mail! Please check your PHP mail configuration.';
     }
