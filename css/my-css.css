@@ -1,0 +1,23 @@
+.img-tec{
+    max-height: 150px;
+}
+
+.img-tec2{
+    max-width: 200px;
+}
+
+.img-tec3{
+    max-height: 100px;
+}
+
+.my-display{
+  height: 200px;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+}

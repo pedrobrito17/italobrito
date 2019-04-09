@@ -1,227 +1,482 @@
-<!doctype html>
-<html lang="pt">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129296958-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-129296958-1');
-    </script>
+<!DOCTYPE html>
+<html>
 
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="Página de divulgação do programador Ítalo Brito">
-    <meta name="keywords" content="desenvolvimento, desenvolvedor, Freelancer, web, desenvolvedor web, desenvolvimento web, sites, sistemas, java, mysql, sql, jquery, javascript, profissional, freela, android, aplicativos, aplicações, software, WordPress, Blog, servidor, dominio, hospedagem, analista de sistemas, Brasil, Maranhão, São Luís">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Ítalo Brito - Desenvolvedor Web Full Stack | Programador Java e JavaScript</title>
-    
-    <!-- Estilos -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="imagem/png" href="css/img/imgperson.png" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet">
-  </head>
+<head>
+  <title>Alstar - Bootstrap one page parallax template</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
 
-  <body id="home">
-    <!-- Barra de navegação -->
-    <nav id="nav-pills" class="nav nav-pills justify-content-center sticky-top bg-light">
-      <a class="nav-link active" href="#home">Home</a>
-      <a class="text-sm-center nav-link" href="#aboutme">Sobre</a>
-      <a class="text-sm-center nav-link" href="#skills">Habilidades</a>
-      <a class="text-sm-center nav-link" href="#technologies">Tecnologias</a>
-      <a class="text-sm-center nav-link" href="#portfolio">Portfolio</a>
-      <a class="text-sm-center nav-link" href="#contact">Contato</a>
-    </nav>
-    <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <h4 class="navbar-brand float-right menu">Menu</h4>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutme">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Habilidade</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#technologies">Tecnologias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Porfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contato</a>
-          </li>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="css/my-css.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html">Ítalo Brito</a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Tecnologias</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </div>
-    </nav>
-
-    <!-- Imagem com titulo -->
-    <header class="bg-image"></header>
-    <div class="bg-text">
-      <h1>Ítalo Brito</h1>
-      <h4>Analista de sistemas | Desenvolvedor Web Full Stack | Programador Java e JavaScript</h4>
     </div>
+  </nav>
 
-    <!-- Seções do site -->
-    <section class="aboutme" id="aboutme">
-      <div class="container">
-        <div class="text-center titulo-secao"><h2><b>Quem sou eu</b></h2></div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-            <h4>Ítalo Brito</h4>
-            <h5 class="h5-person">Programador Java e JavaScript</h5>
-            <p>Sou formado em Sistemas de Informação pelo Instituto Federal de Educação, Ciência e Tecnologia do Maranhão.</p>
-            <p>Amo escrever códigos e desenvolver soluções em TI. Particularmente, me considero um artista. Minhas obras são sites, blogs, sistemas web e aplicações mobile que são apreciadas por usuários exigentes.</p>
-            <p>Estou sempre buscando novas tecnologias que aumentem a minha produtividade e a qualidade dos projetos, através de ideias inovadoras que fortaleçam o negócio do cliente.</p>
-            <h5>São Luís - MA</h5>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 text-center"> <img class="myfoto align-middle" alt="desenvoledor" src="css/img/imgperson.png"> </div>
-        </div>
-      </div>
-    </section>
+  <!-- intro area -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-    <section class="skills" id="skills">
-      <div class="container">
-          <div class="text-center titulo-secao"><h2><b>Habilidades</b></h2></div>
-        <div class="card-columns">
-          <div class="card">
-            <img class="card-img-top" src="css/img/website.png">
-            <div class="card-body">
-              <h4>Páginas Web</h4>
-              <p>Seja empresa ou pessoa, expor seus serviços na internet é essencial para aumentar o número de clientes e ser reconhecido. Deste modo, desenvolvo sites e blogs que se adaptam a qualquer tamanho de dispositivo com designer único e moderno. Além disso, através da otimização para mecanismos de busca impulsiono a página web do cliente em sistemas de busca e mídias sociais.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="css/img/sistemas.jpg">
-            <div class="card-body">
-              <h4>Sistemas Web</h4>
-              <p>A eficiência da administração do negócio está diretamente ligada ao uso de Sistemas de Informação para controlar e gerenciar todos as informações provenientes dos dados armazenados. Por isso, proponho ao cliente o desenvolvimento de sistema web baseado em todas as suas necessidades.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="css/img/android.jpg">
-            <div class="card-body">
-              <h4>Aplicativos Android</h4>
-              <p>No Brasil, existe mais de um smartphone ativo por habitante. Oferecer um app mobile aproxima os clientes ao negócio, através de serviços personalizados e acessíveis a qualquer momento e de qualquer lugar. Assim, construo app android alinhado às estratégias do negócio. </p>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="carousel-background"><img src="img/intro/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">Ítalo Brito | Desenvolvedor Web Full Stack</span></h2>
+                <p class="animated fadeInUp">Desenvolvimento de aplicações web robustas, elegantes e responsivas utilizando as principais ferramentas do mercado</p>
+                <a href="#about" class="btn-get-started animated fadeInUp">Saiba mais</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section><!-- #intro -->
 
-    <section class="technologies" id="technologies">
-      <div class="text-center titulo-secao"><h2><b>Tecnologias</b></h2></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img class="img-thumbnail" src="css/img/css3.png" alt="css3" style="padding-top: 10px;">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img class="img-thumbnail" src="css/img/html.png" alt="html5" style="padding-top: 10px;">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img class="img-thumbnail" src="css/img/js.png" alt="javascript">
-          </div>
-        </div>
-        <div class="row" style="padding-top: 30px;">
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 my-auto">
-            <img class="img-thumbnail" src="css/img/bootstrap.png" alt="bootstrap">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <img class="img-thumbnail" src="css/img/java.jpg" alt="java">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 my-auto">
-            <img class="img-thumbnail" src="css/img/spring.jpeg" alt="spring">
-          </div>
-        </div>
-        <div class="row" style="padding-top: 30px;">
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
-            <img class="img-thumbnail" src="css/img/android-studio.jpg" alt="android studio">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 my-auto">
-            <img class="img-thumbnail" src="css/img/wordpress.png" alt="wordpress">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 my-auto">
-            <img class="img-thumbnail" src="css/img/mysql.jpg" alt="mysql">
-          </div>
-        </div>
-      </div>  
-      </section>
-
-    <section class="portfolio" id="portfolio">
-      <div class="text-center titulo-secao"><h2><b>Portfolio</b></h2></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 text-center espaco">
-            <img class="myImg d-block img-fluid" id="myImg" src="css/img/sistema.png" alt="Sistema de controle e gerenciamento dos médicos anestesistas do HSD">
-            <span class="d-block"><a target="_blank" href="http://sismedhsd.herokuapp.com">Sistema de controle</a></span>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 text-center espaco">
-            <img class="myImg d-block img-fluid" id="myImg" src="css/img/escala.png" alt="Sistema para criação e edição da escala dos médicos anestesistas do HSD">
-            <span class="d-block"><a target="_blank" href="http://sismedhsd.herokuapp.com">Sistema de escala</a></span>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 text-center">
-            <img class="myImg d-block img-fluid" id="myImg" src="css/img/app-barbearia.png" alt="Aplicativo android para controle de clientes e marcação de serviço em uma barbearia">
-            <span class="d-block">Aplicativo android para barbearia</span>
-          </div>
-        </div> <!-- row -->
-      </div> <!-- container -->
-
-      <!-- The Modal -->
-      <div id="myModal" class="modal">
-  
-        <!-- The Close Button -->
-        <span class="close">&times;</span>
-  
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
-  
-        <!-- Modal Caption (Image Text) -->
-        <div class="caption" id="caption"></div>
-      </div>
-    </section>
-    
-    <section class="contact" id="contact">
-      <div class="container">
-        <h2 class="text-center titulo-secao"><b>Contato</b></h2>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/icon/whatsapp.png" alt="whatsapp">
-            <h5 class="text-center">(98) 98204-5453</h5>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-            <img class="mx-auto d-block" src="css/icon/gmail.png" alt="gmail">
-            <h5 class="text-center">pedrobrito17@gmail.com</h5>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/icon/github-circle.png" alt="github">
-            <h5 class="text-center"><a href="http://www.github.com/pedrobrito17" target="_blank">/pedrobrito17</a></h5>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/icon/facebook-box.png" alt="facebook">
-            <h5 class="text-center"><a href="http://www.facebook.com/pedrobrito17" target="_blank">/pedrobrito17</a></h5>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-            <img class="mx-auto d-block" src="css/icon/instagram.png" alt="instagram">
-            <h5 class="text-center"><a href="http://www.instagram.com/italobritoo" target="_blank">/italobritoo</a></h5>
+  <!-- About -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Sobre mim</h2>
+            <div class="heading-line"></div>
+            <p>Sou formado em Sistemas de Informação pelo Instituto Federal de Educação, Ciência e Tecnologia do Maranhão</p>
           </div>
         </div>
       </div>
-    </section>
-    <footer class="footer"></footer>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/me.jpg" alt="">
+        </div>
 
+        <div class="col-md-6 content">
+          <h2>Quando tinha 10 anos de idade, em 1998, meu pai comprou um computador para a família. Desde então, fiquei aficionado por tecnologia e desenvolvimento web.
+            Após a conclusão do ensino médio, em 2005, fui aprovado para o Curso de Sistemas de Informação no IFMA. 
+            Nos anos seguintes, aprimorei minhas habilidades e hoje dedico-me a escrever códigos e desenvolver soluções em TI.</h2>
+          <h3>Estou sempre buscando novas tecnologias que aumentem a minha produtividade e qualidade dos projetos, através de ideias inovadoras que fortaleçam o negócio do cliente.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
-  </body>
+  <!-- Parallax 1 -->
+  <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="color-light">
+            <h2 class="wow bounceInDown" data-wow-delay="0.5s">Suas ideias podem estar online e alcançar milhares de pessoas</h2>
+            <p class="lead wow bounceInUp" data-wow-delay="1s">Não perca mais tempo, o mundo é digital</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Services -->
+<section id="services" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Serviços</h2>
+            <div class="heading-line"></div>
+            <p>
+                Sou especialista em desenvolvimento de aplicações web e sites responsivos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-service" class="service carousel slide">
+
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Site Responsivo</h4>
+                      <p>Seja empresa ou pessoa, expor seus serviços na internet é essencial para aumentar o número de clientes e ser reconhecido. Deste modo, desenvolvo sites que se adaptam a qualquer tamanho de dispositivo com designer único e moderno. Além disso, através da otimização para mecanismos de busca impulsiono a página web do cliente em sistemas de busca e mídias sociais.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/1.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Site e Blog com uso de CMS</h4>
+                      <p>Algumas páginas web, como blogs e sites de notícias, fazem uso de conteúdo dinâmico. Isso só é possível através dos Sistemas de Gerenciamento de Conteúdo (do inglês CMS). Para o desenvolvimento destas páginas utilizo o CMS WordPress.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/2.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Aplicações Java Web</h4>
+                      <p>A eficiência da administração do negócio está diretamente ligada ao uso de Sistemas de Informação para controlar e gerenciar todos as informações provenientes dos dados armazenados. Por isso, proponho ao cliente o desenvolvimento de sistema java web baseado em todas as suas necessidades.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/3.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-service" data-slide-to="1"></li>
+              <li data-target="#carousel-service" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section id="portfolio" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Portfolio</h2>
+            <div class="heading-line"></div>
+            <p>Tenho construído produtos, plataformas e experiências digitais exclusivos nos últimos dois anos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+
+          <ul id="og-grid" class="og-grid">
+            <li>
+              <a href="#" data-largesrc="img/works/1.png" data-title="Sistema de controle de escala" data-description="">
+                <img src="img/works/thumbs/1.png" alt="img01" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/2.png" data-title="Sistema de controle de férias, feriados e serviços" data-description="">
+                <img src="img/works/thumbs/2.png" alt="img02" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/3.png" data-title="Site da Associação dos Oficiais do Corpo de Bombeiros Militar do Maranhão" data-description="">
+                <img src="img/works/thumbs/3.png" alt="img03" />
+              </a>
+            </li>
+            <li>
+              <a href="#" data-largesrc="img/works/4.png" data-title="Sistema para controle e gereciamento da Associação dos Oficiais do Corpo de Bombeiros Militar do Maranhão" data-description="">
+                <img src="img/works/thumbs/4.png" alt="img04" />
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax 2 -->
+  <section id="parallax2" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="clients">
+            <li class="wow fadeInDown" data-wow-delay="0.3s"><a href="#"><img src="img/clients/1.png" alt="" /></a></li>
+            <li class="wow fadeInDown" data-wow-delay="0.6s"><a href="#"><img src="img/clients/2.png" alt="" /></a></li>
+            <li class="wow fadeInDown" data-wow-delay="0.9s"><a href="#"><img src="img/clients/3.png" alt="" /></a></li>
+            <li class="wow fadeInDown" data-wow-delay="1.1s"><a href="#"><img src="img/clients/4.png" alt="" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnologias -->
+  <section id="tecnologias" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Tecnologias</h2>
+            <div class="heading-line"></div>
+            <p>Estas são as tecnologias que utilizo para o desenvolvimento dos projetos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display">
+          <div class="box-team wow bounceInUp my-display" data-wow-delay="0.1s">
+              <img src="img/tecnologias/css3.png" alt="" class="img-responsive img-tec" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display" data-wow-delay="0.3s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/html.png" alt="" class="img-responsive img-tec" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display" data-wow-delay="0.5s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/js.png" alt="" class="img-responsive img-tec" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display" data-wow-delay="0.7s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/java.jpg" alt="" class="img-responsive img-tec" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display">
+          <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+            <img src="img/tecnologias/bootstrap.png" alt="" class="img-responsive img-tec3" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display" data-wow-delay="0.3s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/spring.jpeg" alt="" class="img-responsive img-tec2" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display" data-wow-delay="0.5s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/wordpress.png" alt="" class="img-responsive img-tec2" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display" data-wow-delay="0.7s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/mysql.jpg" alt="" class="img-responsive img-tec2" />
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 my-display" data-wow-delay="0.3s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/visualstudio_code-card.png" alt="" class="img-responsive img-tec2" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 my-display" data-wow-delay="0.5s">
+          <div class="box-team wow bounceInUp">
+            <img src="img/tecnologias/jquery-logo.png" alt="" class="img-responsive img-tec2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Contate-me</h2>
+            <div class="heading-line"></div>
+            <p>Se você tiver alguma dúvida ou apenas quiser dizer olá, preencha o formulário abaixo e
+              entrarei em contato com você dentro de 24 horas. </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div id="sendmessage">Sua mensagem está sendo enviada. Obrigado!</div>
+          <div id="errormessage"></div>
+
+          <form action="" method="post" class="form-horizontal contactForm" role="form">
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4"
+                  data-msg="Por favor, insira pelo menos 4 caracteres do seu nome" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" data-rule="email"
+                  data-msg="Por favor digite um e-mail válido" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4"
+                  data-msg="Por favor, insira pelo menos 8 caracteres de assunto" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escreva alguma coisa para nós"
+                  placeholder="Mensagem"></textarea>
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-2 col-md-8">
+                <button type="submit" class="btn btn-theme btn-lg btn-block">Enviar mensagem</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bottom widget -->
+  <section id="bottom-widget" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-map-marker fa-4x"></i>
+            <h5>Endereço</h5>
+            <p>
+              Rua Plutão s/n Recanto dos Vinhais,<br />São Luís - MA
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInUp">
+            <i class="fa fa-whatsapp fa-4x"></i>
+            <h5>WhatsApp</h5>
+            <p>
+              +55 98 982045453
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInRight">
+            <i class="fa fa-envelope fa-4x"></i>
+            <h5>E-mail</h5>
+            <p>
+              pedrobrito17@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mar-top30">
+        <div class="col-md-12">
+          <h5>Minhas redes sociais</h5>
+          <ul class="social-network">
+            <li><a href="https://www.facebook.com/pedrobrito17" target="__blank">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/pedrobrito17/" target="__blank">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+            <li><a href="https://www.instagram.com/italobritoo/" target="__blank">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+            <li><a href="https://github.com/pedrobrito17" target="__blank">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright &copy; Italo Brito. 2019 All rights reserved.</p>
+          <div class="credits">
+            Designed by Italo Brito
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
 </html>
