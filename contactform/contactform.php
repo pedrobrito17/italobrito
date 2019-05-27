@@ -11,16 +11,16 @@
   $contact_email_to = "pedrobrito17@gmail.com";
 
   // Title prefixes
-  $subject_title = "Contat Form Message:";
-  $name_title = "Name:";
-  $email_title = "Email:";
-  $message_title = "Message:";
+  $subject_title = "Contato do form italobrito.com.br:";
+  $name_title = "Nome:";
+  $email_title = "E-mail:";
+  $message_title = "Mensagem:";
 
   // Error messages
-  $contact_error_name = "Name is too short or empty!";
-  $contact_error_email = "Please enter a valid email!";
-  $contact_error_subject = "Subject is too short or empty!";
-  $contact_error_message = "Too short message! Please enter something.";
+  $contact_error_name = "O nome é muito curto ou está vazio!";
+  $contact_error_email = "Por favor entre com um e-mail válido!";
+  $contact_error_subject = "O assunto é muito curto ou está vazio!";
+  $contact_error_message = "Sua mensagem é muito curta! Por favor digite algo.";
 
 /********** Do not edit from the below line ***********/
 
@@ -73,9 +73,9 @@
 
     if( $sendemail ) {
       echo 'OK';
-      alert('enviado');
+      // alert('enviado');
     } else {
-      echo 'Could not send mail! Please check your PHP mail configuration.';
+      echo 'E-mail não enviado! Por favor verifique sua configuração PHP mail.';
     }
   }
 ?>
